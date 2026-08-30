@@ -63,6 +63,12 @@
 
             while (count < 3 );
             #endregion
+            #region Question 7
+            foreach (string book in books)
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
         }
     }
 }
