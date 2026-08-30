@@ -91,6 +91,20 @@
                 Console.WriteLine(book);
             }
             #endregion
+            #region Question10
+
+            PrintFirstBook(books);
+            void PrintFirstBook(string[] booksArray)
+            {
+                if (booksArray.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(booksArray[0]);
+                }
+            }
+            #endregion
         }
     }
-}
+
