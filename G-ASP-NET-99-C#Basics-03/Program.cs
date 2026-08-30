@@ -29,16 +29,24 @@
 
             #endregion
             #region Question3
-           /* int pages = 464;
-            string sizeLabel = pages > 300 ? "Long Book" : "Small Book";
-            Console.WriteLine(sizeLabel);*/
+            /* int pages = 464;
+             string sizeLabel = pages > 300 ? "Long Book" : "Small Book";
+             Console.WriteLine(sizeLabel);*/
             #endregion
 
             #region Question 4
             string[] books = { "clean code", "the pragmatic programmer", "refactoring" };
-            for(int i = 0; i < books.Length; i++) {
-            Console.WriteLine($"Book {i + 1}: {books[i]}");
+            for (int i = 0; i < books.Length; i++) {
+                Console.WriteLine($"Book {i + 1}: {books[i]}");
 
+            }
+            #endregion
+            #region Question5
+
+            int index = 0;
+            while (index < books.Length) {
+                Console.WriteLine(books[index]);
+                index++;
             }
             #endregion
         }
