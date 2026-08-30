@@ -69,6 +69,18 @@
                 Console.WriteLine(book);
             }
             #endregion
+            #region Question8
+            foreach (string book in books)
+            {
+                if (book == "refactoring")
+                {
+                   
+                    break;
+                }
+                Console.WriteLine("book");
+
+            }
+            #endregion
         }
     }
 }
