@@ -13,7 +13,6 @@
             #endregion
 
             #region Question 2
-
             /* string title = "Refactoring";
              switch (title)
              {
@@ -30,12 +29,18 @@
 
             #endregion
             #region Question3
-            int pages = 464;
+           /* int pages = 464;
             string sizeLabel = pages > 300 ? "Long Book" : "Small Book";
-            Console.WriteLine(sizeLabel);
+            Console.WriteLine(sizeLabel);*/
             #endregion
 
+            #region Question 4
+            string[] books = { "clean code", "the pragmatic programmer", "refactoring" };
+            for(int i = 0; i < books.Length; i++) {
+            Console.WriteLine($"Book {i + 1}: {books[i]}");
 
+            }
+            #endregion
         }
     }
 }
