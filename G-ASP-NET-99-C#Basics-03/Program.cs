@@ -70,7 +70,7 @@
             }
             #endregion
             #region Question8
-            foreach (string book in books)
+           /* foreach (string book in books)
             {
                 if (book == "refactoring")
                 {
@@ -79,6 +79,16 @@
                 }
                 Console.WriteLine("book");
 
+            }*/
+            #endregion
+            #region Question 9
+            foreach (string book in books) 
+            {
+                if (book == "the pragmatic programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(book);
             }
             #endregion
         }
