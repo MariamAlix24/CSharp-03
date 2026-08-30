@@ -49,6 +49,20 @@
                 index++;
             }
             #endregion
+
+            #region Question6
+
+
+            int count= 0;
+            do
+            {
+                Console.WriteLine("checking book..");
+                count++;
+                
+            }
+
+            while (count < 3 );
+            #endregion
         }
     }
 }
