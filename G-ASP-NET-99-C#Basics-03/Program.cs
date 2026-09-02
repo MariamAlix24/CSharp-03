@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            #region  Question 1
-
+            #region Question 1
             /* int pages = 464;
              bool isAvailable = true;
              if (pages > 300 && isAvailable == true)
@@ -26,9 +25,9 @@
                      Console.WriteLine("Never heard of it.");
                      break;
              }*/
-
             #endregion
-            #region Question3
+
+            #region Question 3
             /* int pages = 464;
              string sizeLabel = pages > 300 ? "Long Book" : "Small Book";
              Console.WriteLine(sizeLabel);*/
@@ -36,53 +35,51 @@
 
             #region Question 4
             string[] books = { "clean code", "the pragmatic programmer", "refactoring" };
-            for (int i = 0; i < books.Length; i++) {
+            for (int i = 0; i < books.Length; i++)
+            {
                 Console.WriteLine($"Book {i + 1}: {books[i]}");
-
             }
             #endregion
-            #region Question5
 
+            #region Question 5
             int index = 0;
-            while (index < books.Length) {
+            while (index < books.Length)
+            {
                 Console.WriteLine(books[index]);
                 index++;
             }
             #endregion
 
-            #region Question6
-
-
-            int count= 0;
+            #region Question 6
+            int count = 0;
             do
             {
                 Console.WriteLine("checking book..");
                 count++;
-                
             }
-
-            while (count < 3 );
+            while (count < 3);
             #endregion
+
             #region Question 7
             foreach (string book in books)
             {
                 Console.WriteLine(book);
             }
             #endregion
-            #region Question8
-           /* foreach (string book in books)
-            {
-                if (book == "refactoring")
-                {
-                   
-                    break;
-                }
-                Console.WriteLine("book");
 
-            }*/
+            #region Question 8
+            /* foreach (string book in books)
+             {
+                 if (book == "refactoring")
+                 {
+                     break;
+                 }
+                 Console.WriteLine("book");
+             }*/
             #endregion
+
             #region Question 9
-            foreach (string book in books) 
+            foreach (string book in books)
             {
                 if (book == "the pragmatic programmer")
                 {
@@ -91,8 +88,8 @@
                 Console.WriteLine(book);
             }
             #endregion
-            #region Question10
 
+            #region Question 10
             PrintFirstBook(books);
             void PrintFirstBook(string[] booksArray)
             {
@@ -102,9 +99,8 @@
                 }
 
                 Console.WriteLine(booksArray[0]);
-                }
             }
             #endregion
         }
     }
-
+}
